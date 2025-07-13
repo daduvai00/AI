@@ -22,7 +22,7 @@ module.exports.run = async ({ api, event, args, Users, Threads, Currencies }) =>
   // Random video links array
   const link = [
     "https://i.imgur.com/bumoLaZ.mp4",
-    "https://i.imgur.com/anotherVideo.mp4" // Add more video links as needed
+    "" // Add more video links as needed
   ];
 
   // Function to send the video
