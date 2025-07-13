@@ -1,55 +1,56 @@
 module.exports.config = {
-    name: "hot",
-    version: "1.1.0",
-    hasPermission: 2,
-    credits: "RAJA ViP 5X",
-    description: "RANDOM items video",
-    commandCategory: "Random video",
-    usages: "Statusvideo",
-    cooldowns: 2,
-    dependencies: {
-        "request": "",
-        "fs-extra": "",
-        "axios": ""
-    }
+  name: "hot",
+  version: "1.1.0",
+  hasPermssion: 2,
+  credits: "RAJA ViP 5X",
+  description: "Random items video",
+  commandCategory: "Random video",
+  usages: "Statusvideo",
+  cooldowns: 2,
+  dependencies: {
+    "request": "",
+    "fs-extra": "",
+    "axios": ""
+  }
 };
 
 module.exports.run = async ({ api, event, args, Users, Threads, Currencies }) => {
-    const axios = global.nodemodule["axios"];
-    const request = global.nodemodule["request"];
-    const fs = global.nodemodule["fs-extra"];
+  const axios = global.nodemodule["axios"];
+  const request = global.nodemodule["request"];
+  const fs = global.nodemodule["fs-extra"];
+  
+  // Video links array
+  const links = [
+    "https://i.imgur.com/bumoLaZ.mp4", "https://xhamster.desi/best/weekly", "https://www.google.com/amp/s/amp.xhamster.com/12"// Add more links if necessary
+  ];
 
-    const links = [
-        "https://i.imgur.com/bumoLaZ.mp4",
-        // Add more video links here
-    ];
+  // Function to download video
+  const downloadVideo = (url, filePath) => {
+    return new Promise((resolve, reject) => {
+      request.get(url)
+        .pipe(fs.createWriteStream(filePath))
+        .on("finish", resolve)
+        .on("error", reject);
+    });
+  };
 
-    const selectedLink = links[Math.floor(Math.random() * links.length)];
-    
-    // File path
-    const filePath = `${__dirname}/cache/1.mp4`;
+  // Setup file path for the video
+  const filePath = __dirname + "/cache/1.mp4";
+  const randomLink = links[Math.floor(Math.random() * links.length)];
 
-    try {
-        const response = await axios.get(selectedLink, { responseType: 'stream' });
-        const writer = fs.createWriteStream(filePath);
-
-        response.data.pipe(writer);
-
-        writer.on('finish', () => {
-            api.sendMessage({
-                body: `╭──────•◈•───────╮\n  𝘙𝘈𝘑𝘈 𝘝𝘪𝘗 5𝘟 𝘏𝘖𝘛 𝘝𝘪𝘋𝘌𝘖\n╰──────•◈•───────╯`,
-                attachment: fs.createReadStream(filePath)
-            }, event.threadID, () => fs.unlinkSync(filePath));
-        });
-
-        writer.on('error', (error) => {
-            console.error("Error writing to file:", error);
-            api.sendMessage("Failed to download video. Please try again later.", event.threadID);
-        });
-
-    } catch (error) {
-        console.error("Error fetching video:", error);
-        api.sendMessage("Failed to fetch video. Please try again later.", event.threadID);
-    }
+  try {
+    await downloadVideo(randomLink, filePath);
+    // Send message with video attachment
+    const bodyMessage = '╭──────•◈•───────╮\n      𝘏𝘖𝘛 𝘝𝘐𝘋𝘌𝘖\n╰──────•◈•───────╯';
+    api.sendMessage({
+      body: bodyMessage,
+      attachment: fs.createReadStream(filePath)
+    }, event.threadID, () => {
+      fs.unlinkSync(filePath); // Clean up the cached file
+    });
+  } catch (error) {
+    console.error('Error downloading video:', error);
+    api.sendMessage('কিছু একটা ভুল হয়েছে, আবার চেষ্টা করুন।', event.threadID);
+  }
 };
 ```
