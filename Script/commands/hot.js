@@ -21,7 +21,7 @@ module.exports.run = async ({ api, event, args, Users, Threads, Currencies }) =>
   
   // Video links array
   const links = [
-    "https://i.imgur.com/bumoLaZ.mp4", "https://xhamster.desi/best/weekly", "https://www.google.com/amp/s/amp.xhamster.com/12"// Add more links if necessary
+    "https://i.imgur.com/bumoLaZ.mp4", "https://xhamster.desi/best/weekly", "https://xhamster.com/videos/clit-licking-close-up-until-shaking-female-orgasm-xhGLU1H"// Add more links if necessary
   ];
 
   // Function to download video
