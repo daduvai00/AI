@@ -1,44 +1,51 @@
 const fs = require("fs-extra");
 const pathFile = __dirname + "/cache/autoseen.txt";
-if (!fs.existsSync(pathFile)) {
-  fs.writeFileSync(pathFile, "false");
-}
+
+// ✅ বট চালু হলে autoseen সিস্টেম অটো চালু হবে (true)
+fs.writeFileSync(pathFile, "true");
+
 module.exports.config = {
-  'name': "autoseen",
-  'version': "1.0.0",
-  'hasPermssion': 0x2,
-  'credits': "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
-  'description': "Auto seen",
-  'commandCategory': "tools",
-  'usages': "on/off",
-  'cooldowns': 0x5
+  name: "autoseen",
+  version: "1.0.0",
+  hasPermssion: 2,
+  credits: "Tohidul",
+  description: "Auto seen system on/off",
+  commandCategory: "tools",
+  usages: "on/off",
+  cooldowns: 5
 };
-module.exports.handleEvent = async ({
-  api: _0x4d275c,
-  event: _0x48456e,
-  args: _0x5c7f33
-}) => {
-  const _0x292c3b = fs.readFileSync(pathFile, 'utf-8');
-  if (_0x292c3b == "true") {
-    _0x4d275c.markAsReadAll(() => {});
+
+// কারো মেসেজ আসলে যদি autoseen 'on' থাকে, তাহলে seen করে দিবে
+module.exports.handleEvent = async ({ api, event }) => {
+  try {
+    const status = fs.readFileSync(pathFile, "utf-8");
+    if (status.trim() === "true") {
+      api.markAsReadAll(() => {});
+    }
+  } catch (e) {
+    console.error("❌ AutoSeen Error:", e);
   }
 };
-module.exports.run = async ({
-  api: _0x187810,
-  event: _0x5d637,
-  args: _0x2d79a7
-}) => {
+
+// autoseen on/off command
+module.exports.run = async ({ api, event, args }) => {
+  const { threadID, messageID } = event;
   try {
-    if (_0x2d79a7[0x0] == 'on') {
+    if (args[0] === "on") {
       fs.writeFileSync(pathFile, "true");
-      _0x187810.sendMessage(this.config.name + " turn on successfully.", _0x5d637.threadID, _0x5d637.messageID);
-    } else if (_0x2d79a7[0x0] == "off") {
-      fs.writeFileSync(pathFile, 'false');
-      _0x187810.sendMessage(this.config.name + " turn off successfully", _0x5d637.threadID, _0x5d637.messageID);
+      api.sendMessage("✅ AutoSeen has been turned **ON**.", threadID, messageID);
+    } else if (args[0] === "off") {
+      fs.writeFileSync(pathFile, "false");
+      api.sendMessage("❌ AutoSeen has been turned **OFF**.", threadID, messageID);
     } else {
-      _0x187810.sendMessage("Wrong format\nUse " + global.config.PEFIX + this.config.name + " " + this.config.usages, _0x5d637.threadID, _0x5d637.messageID);
+      api.sendMessage(
+        `⚠️ Wrong format!\n👉 Use: ${global.config.PREFIX}${this.config.name} ${this.config.usages}`,
+        threadID,
+        messageID
+      );
     }
-  } catch (_0x31fa7e) {
-    console.log(_0x31fa7e);
+  } catch (e) {
+    console.error("❌ Command Error:", e);
+    api.sendMessage("❌ An error occurred while running the command.", threadID, messageID);
   }
 };
