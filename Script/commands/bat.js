@@ -179,7 +179,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("আমার সাদা মনে কোনো কাদা নাই...!🌝", threadID);
    };
 
-   if ((event.body.toLowerCase() == "i love you") || (event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "I Love You") || (event.body.toLowerCase() == "ভালোবাসি") || (event.body.toLowerCase() == "i love you")) {
+   if ((event.body.toLowerCase() == "i love you") || (event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "I Love You") || (event.body.toLowerCase() == "ভালোবent.body.toLowerCase() == "i love you")) {
      return api.sendMessage("Love U Too", threadID);
    };
 
@@ -200,7 +200,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
   mess = "{name}"
   
-  if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
+  if (event.body.indexOf("Bat") == 0 || (event.body.indexOf("bat") == 0)) {
     var msg = {
       body: `${name}, ${rand}`
     }
