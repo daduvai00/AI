@@ -1,4 +1,3 @@
-
 const axios = require('axios');
 
 module.exports.config = {
@@ -60,4 +59,3 @@ module.exports.run = async function({ api, event, args }) {
   }
 };
 ```
-
