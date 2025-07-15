@@ -12,16 +12,16 @@ module.exports.run = async ({ api, event }) => {
   const { threadID } = event;
 
   // Step 1: Send loading message
-  const loading = await api.sendMessage("『⏳』𝐔𝐏𝐓𝐈𝐌𝐄 𝐋𝐎𝐀𝐃𝐈𝐍𝐆… [▓▓░░] 𝟒𝟓%", threadID);
+  const loading = await api.sendMessage("『⏳』𝐓𝐎𝐇𝐈-𝐁𝐎𝐓 𝐔𝐏𝐓𝐈𝐌𝐄 𝐋𝐎𝐀𝐃𝐈𝐍𝐆… [▓▓░░] 𝟒𝟓%", threadID);
 
   // Step 2: Edit to 75%
   setTimeout(() => {
-    api.editMessage("『⏳』𝐔𝐏𝐓𝐈𝐌𝐄 𝐋𝐎𝐀𝐃𝐈𝐍𝐆… [▓▓▓▓▓░] 𝟕𝟓%", loading.messageID, threadID);
+    api.editMessage("『⏳』𝐓𝐎𝐇𝐈-𝐁𝐎𝐓 𝐔𝐏𝐓𝐈𝐌𝐄 𝐋𝐎𝐀𝐃𝐈𝐍𝐆… [▓▓▓▓▓░] 𝟕𝟓%", loading.messageID, threadID);
   }, 400);
 
   // Step 3: Edit to 100%
   setTimeout(() => {
-    api.editMessage("『⏳』𝐔𝐏𝐓𝐈𝐌𝐄 𝐋𝐎𝐀𝐃𝐈𝐍𝐆… [▓▓▓▓▓▓▓▓] 𝟏𝟎𝟎%", loading.messageID, threadID);
+    api.editMessage("『⏳』𝐓𝐎𝐇𝐈-𝐁𝐎𝐓 𝐔𝐏𝐓𝐈𝐌𝐄 𝐋𝐎𝐀𝐃𝐈𝐍𝐆… [▓▓▓▓▓▓▓▓] 𝟏𝟎𝟎%", loading.messageID, threadID);
   }, 700);
 
   // Step 4: Edit to final status
@@ -55,8 +55,8 @@ module.exports.run = async ({ api, event }) => {
 
     let msg =
 `╔═════════════════════╗
-    『🚀 AI 𝐔𝐏𝐓𝐈𝐌𝐄 🚀』
-'╚═════════════════════╝
+      『🚀 𝐓𝐎𝐇𝐈-𝐁𝐎𝐓 𝐔𝐏𝐓𝐈𝐌𝐄 🚀』
+╚═════════════════════╝
 🟢 𝙎𝙩𝙖𝙩𝙪𝙨   : 𝗢𝗡𝗟𝗜𝗡𝗘
 🤖 𝐁𝐨𝐭      : ${botName}
 🆙 𝐕𝐞𝐫𝐬𝐢𝐨𝐧   : ${botVersion}
@@ -71,7 +71,7 @@ module.exports.run = async ({ api, event }) => {
 🌐 𝐏𝐢𝐧𝐠     : ${Date.now() - event.timestamp}𝗺𝘀
 🔑 𝐏𝐫𝐞𝐟𝐢𝐱   : ${prefix}
 ═══════════════════════
-『✨  Assistant AI   ✨』
+『✨ 𝑪𝒓𝒆𝒅𝒊𝒕: 𝐓𝐎𝐇𝐈-𝐁𝐎𝐓-𝐇𝐔𝐁 ✨』
 `;
 
     api.editMessage(msg, loading.messageID, threadID);
