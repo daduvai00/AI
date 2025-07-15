@@ -1,89 +1,71 @@
 module.exports.config = {
-    name: "joinNoti",
-    eventType: ["log:subscribe"],
-    version: "1.0.1",
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-    description: "Notification of bots or people entering groups with random gif/photo/video",
-    dependencies: {
-        "fs-extra": "",
-        "path": "",
-        "pidusage": ""
-    }
+  name: "joinnoti",
+  eventType: ["log:subscribe"],
+  version: "1.1.0",
+  credits:  ||⇨ Kawsar Ahmed",
+  description: "Send stylish alert with mentions when someone joins the group"
 };
- 
-module.exports.onLoad = function () {
-    const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
-    const { join } = global.nodemodule["path"];
- 
-    const path = join(__dirname, "cache", "joinvideo");
-    if (existsSync(path)) mkdirSync(path, { recursive: true }); 
- 
-    const path2 = join(__dirname, "cache", "joinvideo", "randomgif");
-    if (!existsSync(path2)) mkdirSync(path2, { recursive: true });
- 
-    return;
-}
- 
- 
-module.exports.run = async function({ api, event }) {
-    const { join } = global.nodemodule["path"];
-    const { threadID } = event;
-    if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
-        api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? " " : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-        const fs = require("fs");
-        return api.sendMessage("", event.threadID, () => api.sendMessage({body: `╭•┄┅═══❁🌺❁═══┅┄•╮\n   আসসালামু আলাইকুম-!!🖤💫\n╰•┄┅═══❁🌺❁═══┅┄•╯
 
-________________________
+module.exports.run = async function ({ api, event, Users }) {
+  const moment = require("moment-timezone");
+  const time = moment.tz("Asia/Dhaka").format("HH:mm:ss");
+  const { threadID } = event;
 
-𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐬𝐨 𝐦𝐮𝐜𝐡 𝐟𝐨𝐫 𝐚dd𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐢-𝐠𝐫𝐨𝐮𝐩-🖤🤗\n\n𝐈 𝐰𝐢𝐥𝐥 𝐚𝐥𝐰𝐚𝐲𝐬 𝐬𝐞𝐫𝐯𝐞 𝐲𝐨𝐮 𝐢𝐧𝐚𝐡𝐚𝐥𝐥𝐚𝐡 🌺❤️-!!
+  // বট নিজেই যোগ দিলে মেসেজ যাবে না
+  if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) return;
 
-________________________\n\n𝐓𝐨 𝐯𝐢𝐞𝐰 𝐚𝐧𝐲 𝐜𝐨𝐦𝐦𝐚𝐧d
+  const addedUsers = event.logMessageData.addedParticipants;
+  if (!addedUsers || addedUsers.length === 0) return;
 
-${global.config.PREFIX}Help\n${global.config.PREFIX} Manu
+  // ম্যানশন তৈরির জন্য অ্যারে
+  let mentions = [];
+  // নামগুলোর জন্য টেক্সট তৈরির জন্য
+  let nameTexts = [];
 
-𝐁𝐎𝐓 𝐍𝐀𝐌𝐄 :Assistant AI ⚠️
+  for (const user of addedUsers) {
+    const name = global.data.userName.get(user.userFbId) || await Users.getNameUser(user.userFbId);
+    nameTexts.push(name);
+    mentions.push({
+      tag: name,
+      id: user.userFbId
+    });
+  }
 
-\n\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆
-`, attachment: fs.createReadStream(__dirname + "/cache/ullash.mp4")} ,threadID));
-    }
-    else {
-        try {
-            const { createReadStream, existsSync, mkdirSync, readdirSync } = global.nodemodule["fs-extra"];
-            let { threadName, participantIDs } = await api.getThreadInfo(threadID);
- 
-            const threadData = global.data.threadData.get(parseInt(threadID)) || {};
-            const path = join(__dirname, "cache", "joinvideo");
-            const pathGif = join(path, `${threadID}.video`);
- 
-            var mentions = [], nameArray = [], memLength = [], i = 0;
-            
-            for (id in event.logMessageData.addedParticipants) {
-                const userName = event.logMessageData.addedParticipants[id].fullName;
-                nameArray.push(userName);
-                mentions.push({ tag: userName, id });
-                memLength.push(participantIDs.length - i++);
-            }
-            memLength.sort((a, b) => a - b);
-            
-            (typeof threadData.customJoin == "undefined") ? msg = "╭•┄┅═══❁🌺❁═══┅┄•╮\n   আসসালামু আলাইকুম-!!🖤\n╰•┄┅═══❁🌺❁═══┅┄•╯ \n✨🆆🅴🅻🅻 🅲🅾🅼🅴✨\n           ❥𝐍𝐄𝐖~\n    ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~\n     [  {name} ]\n\n༆-✿আপনাকে আমাদের࿐\n    {threadName}\n🌺✨!!—এর পক্ষ-থেকে-!!✨🌺\n❤️🫰_ভালোবাস_অভিরাম_🫰❤️\n༆-✿আপনি_এই_গ্রুপের {soThanhVien} নং মেম্বার࿐\n\n╭•┄┅═══❁🌺❁═══┅┄•╮\n  🌸   Assistant AI  🌸\n╰•┄┅═══❁🌺❁═══┅┄•╯" : msg = threadData.customJoin;
-            msg = msg
-            .replace(/\{name}/g, nameArray.join(', '))
-            .replace(/\{type}/g, (memLength.length > 1) ?  'Friends' : 'Friend')
-            .replace(/\{soThanhVien}/g, memLength.join(', '))
-            .replace(/\{threadName}/g, threadName);
- 
-            if (existsSync(path)) mkdirSync(path, { recursive: true });
- 
-            const randomPath = readdirSync(join(__dirname, "cache", "joinGif", "randomgif"));
- 
-            if (existsSync(pathGif)) formPush = { body: msg, attachment: createReadStream(pathvideo), mentions }
-            else if (randomPath.length != 0) {
-                const pathRandom = join(__dirname, "cache", "joinGif", "randomgif", `${randomPath[Math.floor(Math.random() * randomPath.length)]}`);
-                formPush = { body: msg, attachment: createReadStream(pathRandom), mentions }
-            }
-            else formPush = { body: msg, mentions }
- 
-            return api.sendMessage(formPush, threadID);
-        } catch (e) { return console.log(e) };
-    }
-              }
+  // একসাথে নামগুলো কে কৌমা দিয়ে যুক্ত করলাম
+  const namesStr = nameTexts.join(", ");
+
+  // স্টাইলগুলো এখানে
+  const styles = [
+    `✅ ||⇨ 𝐉𝐎𝐈𝐍 𝐀𝐋𝐄𝐑𝐓 ⇦|| ✅\n\n➤ 𝐍𝐚𝐦𝐞: ${namesStr}\n➤ 𝐓𝐢𝐦𝐞:  ${time}`,
+
+    `╔══ ✦ 𝐉𝐎𝐈𝐍 𝐀𝐋𝐄𝐑𝐓 ✦ ══╗\n║ 🙋‍♂️ 𝐍𝐚𝐦𝐞: ${namesStr}\n║ ⏰ 𝐓𝐢𝐦𝐞: ${time}\n╚═════════════════════╝`,
+
+    `↗↗↗ 𝐉𝐎𝐈𝐍 𝐀𝐋𝐄𝐑𝐓 ↗↗↗\n\n➢ 𝐍𝐚𝐦𝐞: ${namesStr}\n➢ 𝐓𝐢𝐦𝐞: ${time}`,
+
+    `❖ 𝐉𝐨𝐢𝐧 𝐃𝐞𝐭𝐞𝐜𝐭𝐞𝐝 ❖\n\n🔹 𝐍𝐚𝐦𝐞: ${namesStr}\n🔹 𝐓𝐢𝐦𝐞: ${time}`
+  ];
+
+  // র‍্যান্ডম স্টাইল সিলেক্ট করলাম
+  const msgText = styles[Math.floor(Math.random() * styles.length)];
+
+  // এখন ম্যানশনসহ মেসেজ বানাচ্ছি
+  // আমাদেরকে টেক্সটের মধ্যে নাম গুলোকে ম্যানশন ট্যাগ দিয়ে রিপ্লেস করতে হবে
+  // সহজ করার জন্য আমরা nameTexts এর প্রথম নাম থেকে শুরু করে রেপ্লেস করব
+
+  let msgBody = msgText;
+
+  // প্রতিটি নামের জন্য ট্যাগ রিপ্লেস
+  for (const mention of mentions) {
+    // নাম গুলো ঠিকমতো ম্যানশন ট্যাগে রিপ্লেস করা
+    // শুধু প্রথম ম্যাচ রিপ্লেস করবো যাতে নাম গুলো সঠিক জায়গায় মেনশন হয়
+    msgBody = msgBody.replace(mention.tag, `[${mention.tag}](user://${mention.id})`);
+  }
+
+  // মেসেজ অবজেক্ট (টেক্সট+ম্যানশন)
+  const msg = {
+    body: msgBody,
+    mentions: mentions
+  };
+
+  return api.sendMessage(msg, threadID);
+};
