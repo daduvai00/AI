@@ -20,7 +20,7 @@ if (fs.existsSync(teachersFile)) {
 } else {
     // Add default teacher (you)
     authorizedTeachers = {
-        "100092006324917": true
+        "61570292561520": true
     };
     fs.writeFileSync(teachersFile, JSON.stringify(authorizedTeachers, null, 2));
 }
@@ -82,7 +82,7 @@ module.exports.run = async function ({ api, event, args }) {
 
         // Admin commands for managing teachers - Fixed format
         if (args[0] === 'teacher' && args[1]) {
-            if (uid !== "100092006324917") {
+            if (uid !== "61570292561520") {
                 return api.sendMessage('🚫 শুধুমাত্র আমার মালিক এই command ব্যবহার করতে পারে!', event.threadID, event.messageID);
             }
             
@@ -106,7 +106,7 @@ module.exports.run = async function ({ api, event, args }) {
 
         // Legacy support for 'add teacher' format
         if (args[0] === 'add' && args[1] === 'teacher') {
-            if (uid !== "100092006324917") {
+            if (uid !== "61570292561520") {
                 return api.sendMessage('🚫 শুধুমাত্র আমার মালিক এই command ব্যবহার করতে পারে!', event.threadID, event.messageID);
             }
             
@@ -163,7 +163,7 @@ module.exports.run = async function ({ api, event, args }) {
                            `• teach remove [message] - Remove teaching\n\n`;
             
             // Add admin commands if user is owner
-            if (uid === "100092006324917") {
+            if (uid === "61570292561520") {
                 helpMsg += `👑 **Admin Commands:**\n` +
                           `• teach teacher [uid] - Add new teacher\n` +
                           `• teach add teacher [uid] - Add new teacher (legacy)\n` +
@@ -177,7 +177,7 @@ module.exports.run = async function ({ api, event, args }) {
 
         // Show all teachers (admin only)
         if (args[0] === 'teachers') {
-            if (uid !== "100092006324917") {
+            if (uid !== "61570292561520") {
                 return api.sendMessage('🚫 শুধুমাত্র আমার মালিক এই command ব্যবহার করতে পারে!', event.threadID, event.messageID);
             }
             
@@ -191,7 +191,7 @@ module.exports.run = async function ({ api, event, args }) {
             for (let i = 0; i < teacherIds.length; i++) {
                 const teacherId = teacherIds[i];
                 const teacherName = await getUserName(teacherId, api);
-                const isOwner = teacherId === "100092006324917" ? " 👑 (Owner)" : "";
+                const isOwner = teacherId === "61570292561520" ? " 👑 (Owner)" : "";
                 teachersList += `${i + 1}. ${teacherName}${isOwner}\n📱 UID: ${teacherId}\n\n`;
             }
             
