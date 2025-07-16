@@ -14,7 +14,7 @@
 	"EncryptFeature": false,
 	"ResetDataLogin": false,
 	"AutoInstallNode": false,
-	"AntiSendAppState": true,
+	"AntiSendAppState": false,
 	"AutoRestartMinutes": 0,
 	"RestartMQTT_Minutes": 0,
 	"Websocket_Extension": {
