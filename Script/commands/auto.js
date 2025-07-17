@@ -103,8 +103,8 @@ module.exports.handleEvent = async function ({ api, event }) {
 
         await api.sendMessage({
             body: `╔═✨𝗠𝗲𝗱𝗶𝗮 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱✨═╗
-                   ${cp}
-                   🔗 Download URL: ${shortUrl} `,
+         ${cp}
+        🔗 Download URL: ${shortUrl} `,
             attachment: fs.createReadStream(path)
         }, event.threadID, () => {
             if (fs.existsSync(path)) {
