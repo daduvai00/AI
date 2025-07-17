@@ -57,9 +57,9 @@ module.exports.handleEvent = async function ({ api, event }) {
             fs.writeFileSync(path, Buffer.from(response.data, "binary"));
 
             await api.sendMessage({
-                body: `╔═══════✨ 𝗜𝗺𝗮𝗴𝗲 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 ✨═══════╗
+                body: `╔═𝗜𝗺𝗮𝗴𝗲 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱═╗
                        📷 Downloaded from Imgur! 🌟
-                       ╚═══════💫 Crafted by Tohidul 💫═══════╝`,
+    `,
                 attachment: fs.createReadStream(path)
             }, event.threadID, () => {
                 if (fs.existsSync(path)) {
@@ -79,10 +79,10 @@ module.exports.handleEvent = async function ({ api, event }) {
         if (!bb.result) {
             api.setMessageReaction("❌", event.messageID, (err) => {}, true);
             return api.sendMessage(
-                `╔═══════🚫 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗙𝗮𝗶𝗹𝗲𝗱 🚫═══════╗
+                `╔═🚫 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗙𝗮𝗶𝗹𝗲𝗱 🚫═╗
                        ⚠ Failed to fetch media data! 😔
                        🔄 Please check the URL and try again.
-                       ╚═══════💫 Crafted by Tohidul 💫═══════╝`,
+             `,
                 event.threadID, event.messageID
             );
         }
@@ -102,10 +102,9 @@ module.exports.handleEvent = async function ({ api, event }) {
         fs.writeFileSync(path, Buffer.from(vid, "utf-8"));
 
         await api.sendMessage({
-            body: `╔═══════✨ 𝗠𝗲𝗱𝗶𝗮 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 ✨═══════╗
+            body: `╔═✨𝗠𝗲𝗱𝗶𝗮 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱✨═╗
                    ${cp}
-                   🔗 Download URL: ${shortUrl}
-                   ╚═══════💫 Crafted by Tohidul 💫═══════╝`,
+                   🔗 Download URL: ${shortUrl} `,
             attachment: fs.createReadStream(path)
         }, event.threadID, () => {
             if (fs.existsSync(path)) {
@@ -118,11 +117,10 @@ module.exports.handleEvent = async function ({ api, event }) {
     } catch (error) {
         api.setMessageReaction("❌", event.messageID, (err) => {}, true);
         await api.sendMessage(
-            `╔═══════🚫 𝗘𝗿𝗿𝗼𝗿 𝗢𝗰𝗰𝘂𝗿𝗿𝗲𝗱 🚫═══════╗
+            `    ╔═🚫 𝗘𝗿𝗿𝗼𝗿 𝗢𝗰𝗰𝘂𝗿𝗿𝗲𝗱 🚫═╗
                    ❌ Something went wrong! 😔
                    📝 Error: ${error.message}
-                   🔄 Please try again later!
-                   ╚═══════💫 Crafted by Tohidul 💫═══════╝`,
+                   🔄 Please try again later! `,
             event.threadID, event.messageID
         );
     }
@@ -131,18 +129,16 @@ module.exports.handleEvent = async function ({ api, event }) {
 module.exports.run = async function ({ api, event }) {
     try {
         return api.sendMessage(
-            `╔═══════✨ 𝗔𝘂𝘁𝗼𝗗𝗟 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 ✨═══════╗
-                   📋 Usage: Reply with a valid video/image URL (Facebook, TikTok, Instagram, YouTube, Pinterest, Imgur)
-                   ╚═══════💫 Crafted by Tohidul 💫═══════╝`,
+            `  ╔═✨ 𝗔𝘂𝘁𝗼𝗗𝗟 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 ✨═╗
+                   📋 Usage: Reply with a valid video/image URL (Facebook, TikTok, Instagram, YouTube, Pinterest, Imgur)`,
             event.threadID, event.messageID
         );
     } catch (error) {
         return api.sendMessage(
-            `╔═══════🚫 𝗘𝗿�_r𝗢𝗰𝗰𝘂𝗿𝗿𝗲𝗱 🚫═══════╗
+            `     ╔═🚫 𝗘𝗿�_r𝗢𝗰𝗰𝘂𝗿𝗿𝗲𝗱 🚫═╗
                    ❌ Something went wrong! 😔
                    📝 Error: ${error.message}
-                   🔄 Please try again later!
-                   ╚═══════💫 Crafted by Tohidul 💫═══════╝`,
+                   🔄 Please try again later! `,
             event.threadID, event.messageID
         );
     }
