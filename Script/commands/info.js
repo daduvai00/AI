@@ -1,7 +1,7 @@
 module.exports.config = {
  name: "info",
  version: "1.2.6",
- hasPermssion: 0,
+ hasPermssion: 2,
  credits: "Shaon Ahmed",
  description: "info bot owner",
  commandCategory: "For users",
