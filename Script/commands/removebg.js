@@ -1,63 +1,63 @@
+const axios = require('axios');
+const fs = require('fs-extra');
+const path = require('path');
+const { image } = require('image-downloader');
+
 module.exports.config = {
  name: 'removebg',
- version: '1.1.1',
+ version: '1.1.5',
  hasPermssion: 0,
- credits: 'Shaon Ahmed',
- description: 'Edit photo',
+ credits: 'ULLASH',
+ description: 'Remove image background using Rapido API',
  usePrefix: true,
  commandCategory: 'Tools',
- usages: 'Reply images or url images',
+ usages: 'Reply to an image',
  cooldowns: 2,
  dependencies: {
- 'form-data': '',
- 'image-downloader': ''
+ 'axios': '',
+ 'image-downloader': '',
+ 'fs-extra': ''
  }
 };
 
-const axios = require('axios');
-const FormData = require('form-data');
-const fs = require('fs-extra');
-const path = require('path');
-const {image} = require('image-downloader');
-module.exports.run = async function({
- api, event, args
-}){
+module.exports.run = async function({ api, event }) {
  try {
- var shaon = `🖼️=== [ REMOVING BACKGROUND ] ===🖼️`;
- if (event.type !== "message_reply") return api.sendMessage("🖼️ | You must to reply the photo you want to removed bg", event.threadID, event.messageID);
- if (!event.messageReply.attachments || event.messageReply.attachments.length == 0) return api.sendMessage("✅ | Removed Background Has Been Successfully ", event.threadID, event.messageID);
- if (event.messageReply.attachments[0].type != "photo") return api.sendMessage("❌ | This Media is not available", event.threadID, event.messageID);
+ if (event.type !== "message_reply") {
+ return api.sendMessage("⚠️ | 𝐏𝐥𝐞𝐚𝐬𝐞 𝐫𝐞𝐩𝐥𝐲 𝐭𝐨 𝐚𝐧 𝐢𝐦𝐚𝐠𝐞.", event.threadID, event.messageID);
+ }
 
- const content = (event.type == "message_reply") ? event.messageReply.attachments[0].url : args.join(" ");
- const MtxApi = ["W8ApL7juv8CSLzBXknA3DwxU"]
- const inputPath = path.resolve(__dirname, 'cache', `photo.png`);
- await image({
- url: content, dest: inputPath
- });
- const formData = new FormData();
- formData.append('size', 'auto');
- formData.append('image_file', fs.createReadStream(inputPath), path.basename(inputPath));
- axios({
- method: 'post',
- url: 'https://api.remove.bg/v1.0/removebg',
- data: formData,
- responseType: 'arraybuffer',
- headers: {
- ...formData.getHeaders(),
- 'X-Api-Key': MtxApi[Math.floor(Math.random() * MtxApi.length)],
- },
- encoding: null
- })
- .then((response) => {
- if (response.status != 200) return console.error('Error:', response.status, response.statusText);
- fs.writeFileSync(inputPath, response.data);
- return api.sendMessage({body:shaon, attachment: fs.createReadStream(inputPath) }, event.threadID, () => fs.unlinkSync(inputPath));
- })
- .catch((error) => {
- return console.error('❐ ɪsʟᴀᴍɪᴄ ʙᴏᴛ 𝚂𝙴𝚁𝚅𝙴𝚁 𝙱𝚄𝚂𝚈 𝙽𝙾𝚆 🚨:', error);
- });
- } catch (e) {
- console.log(e)
- return api.sendMessage(`❐ ɪsʟᴀᴍɪᴄ ʙᴏᴛ 𝚂𝙴𝚁𝚅𝙴𝚁 𝙱𝚄𝚂𝚈 𝙽𝙾𝚆 🚨`, event.threadID, event.messageID);
+ const attachment = event.messageReply.attachments?.[0];
+ if (!attachment || attachment.type !== "photo") {
+ return api.sendMessage("❌ | 𝐎𝐧𝐥𝐲 𝐢𝐦𝐚𝐠𝐞 𝐚𝐭𝐭𝐚𝐜𝐡𝐦𝐞𝐧𝐭𝐬 𝐚𝐫𝐞 𝐬𝐮𝐩𝐩𝐨𝐫𝐭𝐞d.", event.threadID, event.messageID);
  }
+
+ const imageUrl = encodeURIComponent(attachment.url);
+ const apiUrl = `https://rapido.zetsu.xyz/api/remove-background?imageUrl=${imageUrl}`;
+
+ const processing = await api.sendMessage("🖼️ | 𝐑𝐞𝐦𝐨𝐯𝐢𝐧𝐠 𝐛𝐚𝐜𝐤𝐠𝐫𝐨𝐮𝐧d...", event.threadID);
+ const processingMsgId = processing.messageID;
+
+ const res = await axios.get(apiUrl);
+ const resultUrl = res.data?.result;
+
+ if (!resultUrl) {
+ return api.sendMessage("❌ | 𝐁𝐚𝐜𝐤𝐠𝐫𝐨𝐮𝐧d 𝐫𝐞𝐦𝐨𝐯𝐚𝐥 𝐟𝐚𝐢𝐥𝐞d.", event.threadID, () => {
+ if (processingMsgId) api.unsendMessage(processingMsgId);
+ });
  }
+
+ const filePath = path.join(__dirname, 'cache', `removed_${Date.now()}.png`);
+ await image({ url: resultUrl, dest: filePath });
+
+ return api.sendMessage({
+ body: "✅ | 𝐁𝐚𝐜𝐤𝐠𝐫𝐨𝐮𝐧d 𝐫𝐞𝐦𝐨𝐯𝐞d 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲!",
+ attachment: fs.createReadStream(filePath)
+ }, event.threadID, () => {
+ fs.unlinkSync(filePath);
+ if (processingMsgId) api.unsendMessage(processingMsgId);
+ });
+
+ } catch (err) {
+ return api.sendMessage("🚨 | 𝐒𝐞𝐫𝐯𝐞𝐫 𝐞𝐫𝐫𝐨𝐫 𝐨𝐜𝐜𝐮𝐫𝐫𝐞d d𝐮𝐫𝐢𝐧𝐠 𝐛𝐚𝐜𝐤𝐠𝐫𝐨𝐮𝐧d 𝐫𝐞𝐦𝐨𝐯𝐚𝐥.", event.threadID, event.messageID);
+ }
+};
