@@ -4,7 +4,7 @@ const path = require('path');
 module.exports.config = {
   name: "approve",
   version: "6.1.0",
-  permission: 2,
+  permission: 1,
   usePrefix: true,
   credits: "TOHIDUL (Easy Bangla Edition) + Copilot Config Rewrite",
   description: "Owner approval system — approved ছাড়া কোনো গ্রুপে বট কাজ করবে না। (config.json storage edition)",
