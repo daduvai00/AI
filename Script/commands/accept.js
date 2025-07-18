@@ -98,7 +98,7 @@ module.exports.handleReply = async ({ handleReply, event, api }) => {
     msg += `\n\n${randomEmoji()} Failed for ${failed.length}:\n${stylish(failed.join("\n"))}`;
   }
   msg += `\n\n${randomEmoji()} 𝙎𝙩𝙖𝙮 𝙎𝙩𝙮𝙡𝙞𝙨𝙝!`;
-  msg += `\n\n🛠️ 𝑴𝒂𝒅𝒆 𝒃𝒚 𝒕𝒐𝒉𝒊𝒅𝒖𝒍`;
+  msg += `\n\n🛠️ TâMïM AI`;
 
   api.sendMessage(msg, event.threadID, event.messageID);
 };
