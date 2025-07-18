@@ -70,7 +70,7 @@ module.exports.run = async function ({ event, api, Threads,Users }) {
           api.sendMessage(`[ GROUP UPDATE ]\n❯ ${(logMessageData.video) ? 'Video' : ''} call has ended.\n❯ Call duration: ${timeFormat}`, threadID);
         } else if (logMessageData.joining_user) {
           const name = await Users.getNameUser(logMessageData.joining_user);
-          api.sendMessage(`❯ [ Welcome ]\n❯ ${name} Joined the ${(logMessageData.group_call_type == '1') ? 'Video' : ''} call.`, threadID);
+          api.sendMessage(`❯ [  ]\n❯ ${name} Wlc Joined the ${(logMessageData.group_call_type == '1') ? 'Video' : ''} call.`, threadID);
         }
         break;
             }
