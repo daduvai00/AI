@@ -1,11 +1,10 @@
 module.exports.config = {
-  name: "album",
-  version: "0.0.3",
-  permission: 0,
-  prefix: 'awto',
-  credits: "RAJA ViP 5X",
-  description: "Random video",
-  category: "user",
+  name: "ald",
+  version: "1.0.0",
+  hasPermission: 0,
+  credits: "Raja vip 5x",
+  description: "Send a trending TikTok video",
+  commandCategory: "media",
   usages: "",
   cooldowns: 5,
 };
