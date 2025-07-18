@@ -76,7 +76,7 @@ module.exports.run = async function ({ api, event, args, Users }) {
             msg += `╰─➤ **Status**: Active 🟢\n\n`;
         }
 
-        const finalMsg = `🎉 **Group Members Overview** 🎉\n\n${msg}╭───💡 **Crafted by Tohidul** 💡───╮\n╰─────────────────────────╯`;
+        const finalMsg = `🎉 **Group Members Overview** 🎉\n\n${msg}`;
         reply(finalMsg);
     } catch (error) {
         reply("❌ **Oops! Something went wrong!** 😓\nPlease try again later or contact the bot admin. 🚨");
