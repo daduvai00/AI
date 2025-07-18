@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "album",
   version: "0.0.3",
-  permission: 2,
+  permission: 0,
   prefix: 'awto',
   credits: "RAJA ViP 5X",
   description: "Random video",
