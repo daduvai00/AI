@@ -3,7 +3,7 @@ const fs = require("fs");
 const request = require("request");
 
 const link = [
- "https://i.imgur.com/Fuhfezs.mp4",
+ "",
 
 ];
 
@@ -26,7 +26,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
  const content = event.body ? event.body : '';
  const body = content.toLowerCase();
- if (body.startsWith("@কা্ঁরে্ঁন্ট্ঁ সু্ঁন্দ্ঁর্ঁ")) {
+ if (body.startsWith("@Tamim Khan")) {
  const rahad = [
  "╭•┄┅════❁🌺❁════┅┄•╮\n \n  বস বিজি আছে যা বলবে আমাকে বলো-!!\n\n╰•┄┅════❁🌺❁════┅┄•╯",
  "╭•┄┅════❁🌺❁════┅┄•╮\n\n   বস বিজি আছে যা বলবে আমাকে বলো-!!\n\n╰•┄┅════❁🌺❁════┅┄•╯"
