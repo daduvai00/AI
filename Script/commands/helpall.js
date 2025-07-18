@@ -1,7 +1,7 @@
 module.exports.config = {
 name: "helpall",
 version: "1.0.2",
-hasPermssion: 2,
+hasPermssion: 1,
 credits: "Shaon Ahmed",
 description: "Beginner's Guide",
 commandCategory: "SYSTEM",
@@ -26,62 +26,86 @@ module.exports.languages = {
 "helpList": 'Currently %1 commands are available. Use: [ %2help command name ] to know how to use a particular command!',
 "user": "User",
 "adminGroup": "Group Admin",
-"adminBot": "Bot Master"
+"adminBot": "Bot Admin"
 }
-}
+};
 
 module.exports.handleEvent = function ({ api, event, getText }) {
 const { commands } = global.client;
 const { threadID, messageID, body } = event;
 
-// Checking if the message starts with "help"
-if (!body || typeof body == "undefined" || body.indexOf("help") !== 0) return;
-
+if (!body || typeof body == "undefined" || body.indexOf("help") != 0) return;
 const splitBody = body.slice(body.indexOf("help")).trim().split(/\s+/);
-
-// Check if a specific command is requested
-if (splitBody.length === 1 || !commands.has(splitBody[1].toLowerCase())) return;
-
+if (splitBody.length == 1 || !commands.has(splitBody[1].toLowerCase())) return;
 const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};
 const command = commands.get(splitBody[1].toLowerCase());
-const prefix = threadSetting.hasOwnProperty("PREFIX") ? threadSetting.PREFIX : global.config.PREFIX;
-
-return api.sendMessage(getText("moduleInfo", command.config.name, command.config.description, `${prefix}${command.config.name} ${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermssion === 0) ? getText("user") : (command.config.hasPermssion === 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits), threadID, messageID);
-}
+const prefix = (threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX;
+return api.sendMessage(getText("moduleInfo", command.config.name, command.config.description, `${prefix}${command.config.name} ${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermssion == 0) ? getText("user") : (command.config.hasPermssion == 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits), threadID, messageID);
+};
 
 module.exports.run = function({ api, event, args, getText }) {
 const { commands } = global.client;
 const { threadID, messageID } = event;
-
-// Getting the specific command if provided
 const command = commands.get((args[0] || "").toLowerCase());
 const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};
-const { autoUnsend, delayUnsend } = global.configModule[this.config.name];
-const prefix = threadSetting.hasOwnProperty("PREFIX") ? threadSetting.PREFIX : global.config.PREFIX;
+const { autoUnsend, delayUnsend } = this.config.envConfig;
+const prefix = (threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX;
 
 if (!command) {
-const commandValues = Array.from(commands.values());
-const group = [];
-let msg = "";
+const commandList = commands.values();
+var group = [], msg = "";
 
-// Grouping commands by category
-commandValues.forEach(commandConfig => {
-if (!group.some(item => item.group.toLowerCase() === commandConfig.config.commandCategory.toLowerCase())) {
-group.push({ group: commandConfig.config.commandCategory.toLowerCase(), cmds: [commandConfig.config.name] });
+for (const commandConfig of commandList) {
+const category = commandConfig.config.commandCategory.toLowerCase();
+const existingGroup = group.find(item => item.group.toLowerCase() === category);
+
+if (!existingGroup) {
+group.push({ 
+group: category, 
+cmds: [commandConfig.config.name] 
+});
 } else {
-group.find(item => item.group.toLowerCase() === commandConfig.config.commandCategory.toLowerCase()).cmds.push(commandConfig.config.name);
+existingGroup.cmds.push(commandConfig.config.name);
 }
+}
+
+group.sort((a, b) => a.group.localeCompare(b.group));
+
+group.forEach(commandGroup => {
+msg += `╭•┄┅════❁ ${commandGroup.group.toUpperCase()} ❁════┅┄•╮\n`;
+msg += `✨ ${commandGroup.cmds.join('\n✨ ')}\n`;
+msg += `╰•┄┅════❁ ${commandGroup.group.toUpperCase()} ❁════┅┄•╯\n\n`;
 });
 
-group.forEach(commandGroup => msg += `╭•┄┅════❁𝘙𝘈𝘑𝘈 𝘝𝘪𝘗 5𝘟❁════┅┄•╮ ${commandGroup.group.toUpperCase()}\•—»✨${commandGroup.cmds.join('\n✨«—• ')}\n╰•┄┅════❁𝘙𝘈𝘑𝘈 𝘝𝘪𝘗 5𝘟❁════┅┄•╯\n`);
-
-return api.sendMessage(msg + getText("helpList", commands.size, prefix), threadID, async (error, info) => {
+return api.sendMessage({
+body: msg + getText("helpList", commands.size, prefix),
+threadID,
+messageID
+}, async (error, info) => {
 if (autoUnsend) {
 await new Promise(resolve => setTimeout(resolve, delayUnsend * 1000));
 return api.unsendMessage(info.messageID);
-} else return;
+}
 });
 }
 
-return api.sendMessage(getText("moduleInfo", command.config.name, command.config.description, `${prefix}${command.config.name} ${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermssion === 0) ? getText("user") : (command.config.hasPermssion === 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits), threadID, messageID);
-}
+return api.sendMessage(
+getText(
+"moduleInfo", 
+command.config.name, 
+command.config.description, 
+`${prefix}${command.config.name} ${command.config.usages || ""}`, 
+command.config.commandCategory, 
+command.config.cooldowns, 
+(
+command.config.hasPermssion == 0 ? getText("user") : 
+command.config.hasPermssion == 1 ? getText("adminGroup") : 
+getText("adminBot")
+), 
+command.config.credits
+), 
+threadID, 
+messageID
+);
+};
+```
