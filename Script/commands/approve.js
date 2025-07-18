@@ -1,1 +1,216 @@
-function _0x2e4a(){const _0x5a12b5=['ন্য\x20টেলিগ্','\x20সম্পূর্ণর','hasOwnProp','kyreW','x:\x0a','রের\x20জন্য\x20ত','\x20সবাই\x20মিলে','\x0a😳তার\x20ফেসব','then','make\x20sure\x20','পরিবেশ\x20তৈর','\x20তোমার\x20দিন','ndingdThre','of\x20approve','s\x20now\x20acti','\x0a➪\x20Groups:','ved!','19222CnzgwZ','6680386976','\x20খারাপ\x20ব্য','readFileSy','\x20for\x20the\x20r','[\x20ERR\x20]\x20Bo','----[]\x0a\x20🕋\x20','\x20entered\x20i','d\x20list\x0a\x0a','pl.co/img/','ng_star71','n\x20INBOX\x20☢️:','pending','re-approve','✅BOT\x20ADMIN','eStream','\x0a➪\x20Prefix:','/cache/duy','pipe','━\x0a========','408xIUPob','nt\x20wrong,\x20','includes','getNameUse','\x20pre-appro','unapproved','request','bwYIP','4|2|0|3|1','with\x20ID\x20to','\x0a👋যেকোনো\x20স','[\x20OK\x20]\x20Box','cessfully\x20','e\x20ID\x20you\x20e','\x20=>\x20see\x20th','ুপটি\x20অনুমো','েছে🙌।\x0a🔕⚠️\x20দ','\x20www.faceb','য়া\x20করে\x20মন','EADS\x20NEED\x20','length','–\x20𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸','onLoad','\x20𝗰𝗵𝗮𝘁\x20𝗯𝗼𝘁\x20','🟢\x20𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸','ি\x20করি।\x20\x20\x0a\x0a','e\x20light\x20of','[\x20-\x20]\x20ID\x20','ads.json','ve\x20with\x20th','cJccz','removed\x20fr','\x20the\x20admin','MiDSu','ntered\x20is\x20','Aitim','getUserInf','hXMVg','id=1000866','\x20আসুন\x20আমরা','PREFIX','VttKy','\x20p/pending','lastIndexO','bIgle','তে\x20লিখুন:\x20','oved\x20from\x20','\x20」\x20====','Stream','author','parse','list','ৈরি\x20করা\x20হয','MjGvQ','থাকে\x20বিরত\x20','Help\x27\x20✨\x20জ্','de\x20by:\x20','changeNick','splice','axios','ই\x20একটি\x20সুন','ুক\x20আইডি🤓:-','vQLwy','iwGfG','1.0.2','udUQS','ofile.php?','log','eqqFN','1535984TQJCaK','join','335910qiAMMH','/ullash/ap','ROVE\x20」====','ully\x20appro','threadID','𝐂𝐘𝐁𝐄𝐑\x20☢️_𖣘\x20','push','credits','vtBen','✨আপনার\x20গ্র','EwZrk','»\x20Successf','\x20remove\x20fr','d\x20boxes\x0a\x0a','BOTNAME','erty','keys','𖣘\x20-𝐁𝐎𝐓\x20⚠️\x20𝑻','t\x20box\x0a\x0a⇒\x20','তে\x20আঘাত\x20কর','===\x0a\x0a➪\x20BOT','threadName','াহায্যের\x20জ','wveZv','client','\x20এই\x20বটের\x20ম',':-\x20ULLASH\x20','201rMGUcq','।\x0a[]------','eason:\x20','url','ূপে\x20নিষিদ্','om\x20bot\x20use','\x0a⚠️Bot\x20admi','\x20an\x20ID\x20to\x20','━━━━━━━━━━','TtZnB','বহার,\x20গালা','নমূলক\x20ও\x20বি','1000866803','AEece','VCuBc','om\x20the\x20lis','TO\x20BE\x20APPR','messageID','t\x20a\x20number','80386976\x20\x20','fZEPC','لَآ\x20إِلَـ','unlinkSync','createWrit','zQlcM','\x20〖\x20','্দর\x20ও\x20নিরা','\x20ভরপুর\x20হোক','senderID','ng\x20list\x20by','x\x20is\x20not\x20p','is\x20in\x20the\x20','ved\x20the\x20bo','ync','iJvtp','he\x20Box\x20(◕‿','[\x20ERR\x20]\x20So','ٰهَ\x20إِلَّا','\x20শুধু\x20জ্ঞা','e\x20list\x20of\x20','the\x20browsi','[\x20ERR\x20]\x20No','Fwdvl','4475856KCeGaY','nfo','https://an','\x20l/list\x20=>','substring','়েছে।\x20\x20\x0a❌\x20','del','anime','cRjkN','\x20boxes\x0a\x0a','ED:\x20','uWFSF','existsSync','allUserID','কমান্ড\x20দেখ','ীলতা\x20বা\x20কা','Admin','PdmMI','\x0a➪\x20Users:\x20','-𝐁𝐎𝐓\x20⚠️\x20𝑻𝑬𝑨','s\x20valid\x20an','et.','allThreadI','mething\x20we','handleRepl','getData','\x20〗\x20➺\x20','getThreadI','NUgsq','the\x20id\x20you','indexOf','কোনো\x20ধরনের','mYrOS','run','icDgM','\x20d/del\x20=>\x20','browse\x20tha','[\x20OK\x20]\x20You','help','r\x20group\x20ha','6492AObjZC','sendMessag','not\x20valid','\x20هُوَ\x20ٱلْح','d\x20the\x20bot\x20','riyansh.re','াধ্যমে\x20করা','َىُّ\x20ٱلْقَ','◕):\x0a','THAT\x20HAD\x20B','\x20Imaan!\x0a\x0a━','e\x20gc\x20using','hCzmc','stringify','\x20bots\x20xD','=====「\x20THR','----------','\x0a=========','োগ\x20করুন\x20👉\x20','𝑴_\x20☢️','ধ।\x20\x20\x0a‼️\x20এমন','---[]\x0a⌨\x20Ma','30htiDMs','HIFAz','exports','𝑬𝑨𝑴_\x20☢️\x20\x0a\x0a\x0a','OVE:\x20','s\x20been\x20rem','ঞান\x20ও\x20আমলে','createRead','[\x20OK\x20]\x20Suc','botID','পদ\x20অনলাইন\x20','close','replace','2763wHZmJp','\x20has\x20been\x20','Jnaly','ed\x20bots','provedThre','get','يُّومُ\x20﴿\x0a\x0a','HjWZz','data','writeFileS','/ullash/pe','=====「\x20GC\x20','\x20\x20\x0aএই\x20বটটি','name','নোদনমূলক\x20ক','\x20কোনো\x20কাজ\x20','ime.apibyp','াজে\x20ব্যবহা','approve\x20th','m.me/10008','86976','=\x0a\x0a','@The_morni','==\x0a[]-----','দন\x20করা\x20হয়','config','×\x20𝐂𝐘𝐁𝐄𝐑\x20☢️_','\x20=>\x20Attach','\x20see\x20list\x20','﴾\x20ٱللَّهُ\x20','[\x20ERR\x20]\x20Th','গালি,\x20অশ্ল','Approved\x20T','EEN\x20APPROV','〙»\x20','থাকবেন।\x0a\x0a✅','approve','t\x20of\x20allow','ে\x20রাখবেন\x20⚠️','box!','==========','ার\x20মতো\x20কাজ','7676LnmwdB','ook.com/pr','রামে\x20যোগায','split','=====「\x20APP','610vRsUuY','|\x20ᵁᴸᴸ⁴ˢᴴ\x20i','রো\x20অনুভূতি','yrsMu'];_0x2e4a=function(){return _0x5a12b5;};return _0x2e4a();}const _0x121ab1=_0x5308;(function(_0x4b040c,_0x210ed2){const _0x5064f2=_0x5308,_0x2e383f=_0x4b040c();while(!![]){try{const _0x28d604=-parseInt(_0x5064f2(0x1c2))/(0x1af*-0x17+-0x2*-0x52+-0xd*-0x2ee)*(parseInt(_0x5064f2(0x1ac))/(-0x2601+0x73*-0x12+-0x2e19*-0x1))+-parseInt(_0x5064f2(0x159))/(-0x20fb+0x1284+0xe7a)*(-parseInt(_0x5064f2(0x1f9))/(0xcb*-0x2a+0x17*0x14b+-0x1*-0x395))+parseInt(_0x5064f2(0x26e))/(0x3*-0x34a+0x1ef5+-0x2*0xa89)+parseInt(_0x5064f2(0x227))/(0x11df*-0x1+-0x2634+0x3819)*(-parseInt(_0x5064f2(0x213))/(-0x3*-0x949+0x1*-0x139+-0x1a9b))+-parseInt(_0x5064f2(0x26c))/(0x1655+-0x3d*-0x53+-0x2a14)+parseInt(_0x5064f2(0x1cf))/(0x1*-0x1444+0x2c3+-0x1c1*-0xa)*(-parseInt(_0x5064f2(0x1fe))/(0x5d4*0x4+0x1*-0x13ab+0x47*-0xd))+parseInt(_0x5064f2(0x184))/(0x29b*-0x8+-0x1c71+0x3154);if(_0x28d604===_0x210ed2)break;else _0x2e383f['push'](_0x2e383f['shift']());}catch(_0x17e9ef){_0x2e383f['push'](_0x2e383f['shift']());}}}(_0x2e4a,-0x2677*-0x3+-0x416*-0xcd+-0x1f49*0x11),module[_0x121ab1(0x1c4)][_0x121ab1(0x1e8)]={'name':_0x121ab1(0x1f3),'version':_0x121ab1(0x267),'hasPermssion':0x2,'credits':_0x121ab1(0x273)+_0x121ab1(0x197)+_0x121ab1(0x1bf),'description':_0x121ab1(0x1e1)+_0x121ab1(0x1b7)+_0x121ab1(0x1ba),'commandCategory':_0x121ab1(0x194),'cooldowns':0x5});const dataPath=__dirname+(_0x121ab1(0x26f)+_0x121ab1(0x1d3)+_0x121ab1(0x243)),dataPending=__dirname+(_0x121ab1(0x1d9)+_0x121ab1(0x20e)+_0x121ab1(0x243)),fs=require('fs');function _0x5308(_0x358941,_0x8fff3d){const _0x418e8f=_0x2e4a();return _0x5308=function(_0xcdf5c5,_0x52142f){_0xcdf5c5=_0xcdf5c5-(0x2541+-0x40*-0xf+-0x27b1);let _0x5a874a=_0x418e8f[_0xcdf5c5];return _0x5a874a;},_0x5308(_0x358941,_0x8fff3d);}module[_0x121ab1(0x1c4)][_0x121ab1(0x23d)]=()=>{const _0x1ef9ed=_0x121ab1;if(!fs[_0x1ef9ed(0x190)](dataPath))fs[_0x1ef9ed(0x1d8)+_0x1ef9ed(0x17a)](dataPath,JSON[_0x1ef9ed(0x1b9)]([]));if(!fs[_0x1ef9ed(0x190)](dataPending))fs[_0x1ef9ed(0x1d8)+_0x1ef9ed(0x17a)](dataPending,JSON[_0x1ef9ed(0x1b9)]([]));},module[_0x121ab1(0x1c4)][_0x121ab1(0x19c)+'y']=async function({event:_0x4d1d85,api:_0x84ed6b,Currencies:_0x3bbdd9,handleReply:_0x284091,Users:_0x2b6c8e,args:_0x59498d}){const _0x5f152e=_0x121ab1,_0x58e851={'hXMVg':function(_0x2cf557,_0x45f3de){return _0x2cf557!=_0x45f3de;},'mYrOS':_0x5f152e(0x21f)};if(_0x58e851[_0x5f152e(0x24c)](_0x284091[_0x5f152e(0x258)],_0x4d1d85[_0x5f152e(0x175)]))return;const {body:_0x33b041,threadID:_0x42b442,messageID:_0x2bf6d2,senderID:_0x39eae6}=_0x4d1d85,{type:_0x2d9b5b}=_0x284091;let _0x34836a=JSON[_0x5f152e(0x259)](fs[_0x5f152e(0x216)+'nc'](dataPath)),_0x3ce714=JSON[_0x5f152e(0x259)](fs[_0x5f152e(0x216)+'nc'](dataPending)),_0x325f76=_0x59498d[-0x10d7*0x2+0x1390*-0x1+0x353e]?_0x59498d[-0x1a2+0xb*0x1c6+-0x11e0]:_0x42b442;switch(_0x2d9b5b){case _0x58e851[_0x5f152e(0x1a4)]:{switch(_0x33b041){case'A':{_0x34836a[_0x5f152e(0x274)](_0x325f76),fs[_0x5f152e(0x1d8)+_0x5f152e(0x17a)](dataPath,JSON[_0x5f152e(0x1b9)](_0x34836a,null,0x1149+0x2d4*-0x2+-0xb9f)),_0x84ed6b[_0x5f152e(0x1ad)+'e'](_0x5f152e(0x279)+_0x5f152e(0x271)+_0x5f152e(0x179)+_0x5f152e(0x206)+_0x325f76,_0x42b442,()=>{const _0x35c7b5=_0x5f152e;_0x3ce714[_0x35c7b5(0x261)](_0x3ce714[_0x35c7b5(0x1a2)](_0x325f76),0x1*-0xe7d+-0x1901*-0x1+-0xa83),fs[_0x35c7b5(0x1d8)+_0x35c7b5(0x17a)](dataPending,JSON[_0x35c7b5(0x1b9)](_0x3ce714,null,-0x2d9*0x6+0x137f+-0x1*0x267));},_0x2bf6d2);}}}}},module[_0x121ab1(0x1c4)][_0x121ab1(0x1a5)]=async({event:_0xac24a0,api:_0x2d2682,args:_0x4669ac,Threads:_0x49260c,handleReply:_0x17c59c,Users:_0x253d87})=>{const _0x213b9b=_0x121ab1,_0x524b4b={'vtBen':_0x213b9b(0x21f),'VttKy':function(_0x1dc1b7,_0x467515){return _0x1dc1b7+_0x467515;},'Aitim':function(_0xbe5f18,_0x15535f){return _0xbe5f18+_0x15535f;},'Fwdvl':function(_0x42ce26,_0x1407ac){return _0x42ce26(_0x1407ac);},'vQLwy':_0x213b9b(0x1cd),'hCzmc':_0x213b9b(0x186)+_0x213b9b(0x1df)+_0x213b9b(0x1b1)+_0x213b9b(0x21c)+_0x213b9b(0x18b),'iwGfG':function(_0x44bfa1,_0x4bc181){return _0x44bfa1(_0x4bc181);},'icDgM':_0x213b9b(0x262),'eqqFN':_0x213b9b(0x22d),'uWFSF':function(_0x3c0c9b,_0x640db7){return _0x3c0c9b(_0x640db7);},'PdmMI':_0x213b9b(0x165)+_0x213b9b(0x1e3),'TtZnB':_0x213b9b(0x17d)+_0x213b9b(0x19b)+_0x213b9b(0x228)+_0x213b9b(0x20b)+_0x213b9b(0x1a1)+_0x213b9b(0x21a)+_0x213b9b(0x198)+_0x213b9b(0x1b0)+_0x213b9b(0x178)+_0x213b9b(0x1f6),'VCuBc':function(_0x5a243e,_0x55cd52){return _0x5a243e==_0x55cd52;},'iJvtp':_0x213b9b(0x25a),'zQlcM':function(_0xdc7c32,_0x36472b){return _0xdc7c32==_0x36472b;},'kyreW':function(_0x11ebc7,_0x2da6fa){return _0x11ebc7==_0x2da6fa;},'wveZv':_0x213b9b(0x1aa),'HIFAz':function(_0x19d985,_0x4c6111){return _0x19d985==_0x4c6111;},'cRjkN':_0x213b9b(0x24f),'MjGvQ':_0x213b9b(0x18a),'bIgle':_0x213b9b(0x22f),'udUQS':_0x213b9b(0x218)+_0x213b9b(0x177)+_0x213b9b(0x220)+'d!','MiDSu':function(_0x5165ae,_0x539f05){return _0x5165ae(_0x539f05);},'Jnaly':_0x213b9b(0x182)+_0x213b9b(0x16b),'EwZrk':function(_0x3654f4,_0x3e3d75){return _0x3654f4(_0x3e3d75);},'NUgsq':_0x213b9b(0x1ed)+_0x213b9b(0x234)+_0x213b9b(0x249)+_0x213b9b(0x1ae),'HjWZz':_0x213b9b(0x277)+_0x213b9b(0x236)+_0x213b9b(0x1e7)+_0x213b9b(0x237)+_0x213b9b(0x239)+_0x213b9b(0x1f5)+_0x213b9b(0x1db)+_0x213b9b(0x17f)+_0x213b9b(0x164)+_0x213b9b(0x1dd)+_0x213b9b(0x1e0)+_0x213b9b(0x207)+_0x213b9b(0x25b)+_0x213b9b(0x189)+_0x213b9b(0x1a3)+_0x213b9b(0x215)+_0x213b9b(0x163)+_0x213b9b(0x1ee)+_0x213b9b(0x193)+_0x213b9b(0x200)+_0x213b9b(0x151)+_0x213b9b(0x1f8)+_0x213b9b(0x157)+_0x213b9b(0x1b2)+_0x213b9b(0x203)+_0x213b9b(0x15d)+_0x213b9b(0x1c0)+_0x213b9b(0x1de)+_0x213b9b(0x25d)+_0x213b9b(0x1f2)+_0x213b9b(0x24e)+_0x213b9b(0x208)+_0x213b9b(0x263)+_0x213b9b(0x173)+_0x213b9b(0x1cc)+_0x213b9b(0x20c)+_0x213b9b(0x240)+_0x213b9b(0x23c)+_0x213b9b(0x23e)+_0x213b9b(0x1e9)+_0x213b9b(0x27f)+_0x213b9b(0x1c5)+_0x213b9b(0x221)+_0x213b9b(0x158)+_0x213b9b(0x15f)+_0x213b9b(0x21e)+_0x213b9b(0x1e2)+_0x213b9b(0x214)+_0x213b9b(0x209)+_0x213b9b(0x264)+_0x213b9b(0x238)+_0x213b9b(0x1fa)+_0x213b9b(0x269)+_0x213b9b(0x24d)+_0x213b9b(0x16c)+_0x213b9b(0x231)+_0x213b9b(0x154)+_0x213b9b(0x202)+_0x213b9b(0x1fb)+_0x213b9b(0x1be)+_0x213b9b(0x1e5)+_0x213b9b(0x21d)},{threadID:_0x42dde2,messageID:_0xd078af,senderID:_0x34ddda}=_0xac24a0;let _0x47319e=JSON[_0x213b9b(0x259)](fs[_0x213b9b(0x216)+'nc'](dataPath)),_0x3b38df=JSON[_0x213b9b(0x259)](fs[_0x213b9b(0x216)+'nc'](dataPending)),_0x1c6470='';var _0x5baf06=_0x4669ac[_0x213b9b(0x261)](0x1*0xd2a+0xe5d+-0x1b85)[_0x213b9b(0x26d)]('\x20');let _0x49867d=_0x4669ac[0x1*-0x1319+-0x17b8+0x2ad1]?_0x4669ac[-0x2400+0xa15+-0x5*-0x52f]:_0x42dde2;if(_0x524b4b[_0x213b9b(0x167)](_0x4669ac[-0xffe+-0xf82+-0x480*-0x7],_0x524b4b[_0x213b9b(0x17b)])||_0x524b4b[_0x213b9b(0x171)](_0x4669ac[-0x2548+-0x1e82+0x43ca],'l')){_0x1c6470=_0x213b9b(0x1da)+_0x213b9b(0x1b5)+_0x213b9b(0x1f0)+_0x213b9b(0x18e)+_0x47319e[_0x213b9b(0x23b)]+_0x213b9b(0x256);let _0x536c99=0x152f+-0x73f*0x1+0xdf0*-0x1;for(e of _0x47319e){let _0x23d713=await _0x2d2682[_0x213b9b(0x19f)+_0x213b9b(0x185)](e),_0x23eef0=_0x23d713[_0x213b9b(0x153)]?_0x23d713[_0x213b9b(0x153)]:await _0x253d87[_0x213b9b(0x22a)+'r'](e);_0x1c6470+='\x0a〘'+(_0x536c99+=0x168c+-0x92e+0x1*-0xd5d)+_0x213b9b(0x1f1)+_0x23eef0+'\x0a'+e;}_0x2d2682[_0x213b9b(0x1ad)+'e'](_0x1c6470,_0x42dde2,(_0x38cbe9,_0x51fdc5)=>{const _0x287cc2=_0x213b9b;global[_0x287cc2(0x156)][_0x287cc2(0x19c)+'y'][_0x287cc2(0x274)]({'name':this[_0x287cc2(0x1e8)][_0x287cc2(0x1dc)],'messageID':_0x51fdc5[_0x287cc2(0x16a)],'author':_0xac24a0[_0x287cc2(0x175)],'type':'a'});},_0xd078af);}else{if(_0x524b4b[_0x213b9b(0x205)](_0x4669ac[-0x1ac4+0x19a9*-0x1+-0x1*-0x346d],_0x524b4b[_0x213b9b(0x276)])||_0x524b4b[_0x213b9b(0x171)](_0x4669ac[0x1*0x1976+-0x1414+-0x1a*0x35],'p')){_0x1c6470=_0x213b9b(0x1bb)+_0x213b9b(0x23a)+_0x213b9b(0x169)+_0x213b9b(0x1c6)+_0x3b38df[_0x213b9b(0x23b)]+_0x213b9b(0x256);let _0x4a334a=0x1868+-0x1fce+-0x766*-0x1;for(e of _0x3b38df){let _0x472c08=await _0x2d2682[_0x213b9b(0x19f)+_0x213b9b(0x185)](e),_0x259c66=_0x472c08[_0x213b9b(0x153)]?_0x472c08[_0x213b9b(0x153)]:await _0x253d87[_0x213b9b(0x22a)+'r'](e);_0x1c6470+='\x0a〘'+(_0x4a334a+=-0x8*0x319+-0x1*0x15f3+0x3*0xf94)+_0x213b9b(0x1f1)+_0x259c66+'\x0a'+e;}_0x2d2682[_0x213b9b(0x1ad)+'e'](_0x1c6470,_0x42dde2,(_0x205a9c,_0x1945e5)=>{const _0x2cfac0=_0x213b9b;global[_0x2cfac0(0x156)][_0x2cfac0(0x19c)+'y'][_0x2cfac0(0x274)]({'name':this[_0x2cfac0(0x1e8)][_0x2cfac0(0x1dc)],'messageID':_0x1945e5[_0x2cfac0(0x16a)],'author':_0xac24a0[_0x2cfac0(0x175)],'type':_0x524b4b[_0x2cfac0(0x276)]});},_0xd078af);}else{if(_0x524b4b[_0x213b9b(0x167)](_0x4669ac[-0x16da+-0x44d+0x1b27],_0x524b4b[_0x213b9b(0x155)])||_0x524b4b[_0x213b9b(0x1c3)](_0x4669ac[-0x1366+-0x1*0x12e6+0x264c],'h')){const _0x6c287c=(await _0x49260c[_0x213b9b(0x19d)](_0x524b4b[_0x213b9b(0x183)](String,_0xac24a0[_0x213b9b(0x272)])))[_0x213b9b(0x1d7)]||{},_0x439cd8=_0x6c287c[_0x213b9b(0x204)+_0x213b9b(0x27d)](_0x524b4b[_0x213b9b(0x18c)])?_0x6c287c[_0x213b9b(0x24f)]:global[_0x213b9b(0x1e8)][_0x213b9b(0x24f)],_0x40daf9=this[_0x213b9b(0x1e8)][_0x213b9b(0x1dc)],_0x48d5e7=this[_0x213b9b(0x1e8)][_0x213b9b(0x275)];return _0x2d2682[_0x213b9b(0x1ad)+'e'](_0x213b9b(0x1fd)+_0x213b9b(0x270)+_0x213b9b(0x1e4)+_0x439cd8+_0x40daf9+(_0x213b9b(0x187)+_0x213b9b(0x1eb)+_0x213b9b(0x20f)+_0x213b9b(0x27b))+_0x439cd8+_0x40daf9+(_0x213b9b(0x251)+_0x213b9b(0x235)+_0x213b9b(0x180)+_0x213b9b(0x22c)+_0x213b9b(0x18d))+_0x439cd8+_0x40daf9+(_0x213b9b(0x1a7)+_0x213b9b(0x230)+_0x213b9b(0x27a)+_0x213b9b(0x15e)+_0x213b9b(0x21b))+_0x439cd8+_0x40daf9+(_0x213b9b(0x1ea)+_0x213b9b(0x160)+_0x213b9b(0x1a8)+_0x213b9b(0x150))+_0x48d5e7+'\x20⇐',_0x42dde2,_0xd078af);}else{if(_0x524b4b[_0x213b9b(0x205)](_0x4669ac[0xc2c+-0xd3c+0x4*0x44],_0x524b4b[_0x213b9b(0x25c)])||_0x524b4b[_0x213b9b(0x205)](_0x4669ac[-0x133d+-0x773*-0x2+0x457*0x1],'d')){const _0x34375b=_0x524b4b[_0x213b9b(0x253)][_0x213b9b(0x1fc)]('|');let _0x8aa2b5=0x7d1+0xeb*-0x1d+-0x53*-0x3a;while(!![]){switch(_0x34375b[_0x8aa2b5++]){case'0':if(!_0x47319e[_0x213b9b(0x229)](_0x49867d))return _0x2d2682[_0x213b9b(0x1ad)+'e'](_0x524b4b[_0x213b9b(0x268)],_0x42dde2,_0xd078af);continue;case'1':_0x2d2682[_0x213b9b(0x1ad)+'e'](_0x213b9b(0x232)+_0x213b9b(0x1d0)+_0x213b9b(0x246)+_0x213b9b(0x168)+_0x213b9b(0x1f4)+_0x213b9b(0x1d2),_0x42dde2,()=>{const _0x22825f=_0x213b9b;_0x47319e[_0x22825f(0x261)](_0x47319e[_0x22825f(0x1a2)](_0x49867d),0xfb*-0x1b+0x3*0x3c7+-0xf25*-0x1),fs[_0x22825f(0x1d8)+_0x22825f(0x17a)](dataPath,JSON[_0x22825f(0x1b9)](_0x47319e,null,-0x217+-0x8*-0x3d9+0x7*-0x419));},_0xd078af);continue;case'2':if(_0x524b4b[_0x213b9b(0x248)](isNaN,_0x524b4b[_0x213b9b(0x248)](parseInt,_0x49867d)))return _0x2d2682[_0x213b9b(0x1ad)+'e'](_0x524b4b[_0x213b9b(0x1d1)],_0x42dde2,_0xd078af);continue;case'3':_0x2d2682[_0x213b9b(0x1ad)+'e'](_0x213b9b(0x1a9)+_0x213b9b(0x1ab)+_0x213b9b(0x1c7)+_0x213b9b(0x255)+_0x213b9b(0x181)+_0x213b9b(0x176)+_0x213b9b(0x247)+_0x213b9b(0x217)+_0x213b9b(0x15b)+_0x5baf06,_0x49867d);continue;case'4':_0x49867d=_0x4669ac[0x1*0x1537+0x1ad*-0x7+-0x97b]?_0x4669ac[0x2d*-0x57+-0x4*-0x9a4+-0x5d1*0x4]:_0xac24a0[_0x213b9b(0x272)];continue;}break;}}else{if(_0x524b4b[_0x213b9b(0x278)](isNaN,_0x524b4b[_0x213b9b(0x278)](parseInt,_0x49867d)))_0x2d2682[_0x213b9b(0x1ad)+'e'](_0x524b4b[_0x213b9b(0x1a0)],_0x42dde2,_0xd078af);else{if(_0x47319e[_0x213b9b(0x229)](_0x49867d))_0x2d2682[_0x213b9b(0x1ad)+'e'](_0x213b9b(0x242)+_0x49867d+(_0x213b9b(0x22b)+_0x213b9b(0x212)),_0x42dde2,_0xd078af);else _0x2d2682[_0x213b9b(0x1ad)+'e'](_0x524b4b[_0x213b9b(0x1d6)],_0x49867d,(_0x336794,_0x2cb446)=>{const _0x1deffa=_0x213b9b;_0x2d2682[_0x1deffa(0x260)+_0x1deffa(0x1dc)](_0x1deffa(0x172)+global[_0x1deffa(0x1e8)][_0x1deffa(0x24f)]+_0x1deffa(0x19e)+(!global[_0x1deffa(0x1e8)][_0x1deffa(0x27c)]?'':global[_0x1deffa(0x1e8)][_0x1deffa(0x27c)]),_0x49867d,global[_0x1deffa(0x1d7)][_0x1deffa(0x1cb)]);const _0x3b76f8=_0x524b4b[_0x1deffa(0x266)](require,_0x524b4b[_0x1deffa(0x1a6)]),_0x58e58c=_0x524b4b[_0x1deffa(0x266)](require,_0x524b4b[_0x1deffa(0x26b)]),_0x5e4385=_0x524b4b[_0x1deffa(0x18f)](require,'fs');let _0x47ff3d=_0x524b4b[_0x1deffa(0x195)];_0x2d2682[_0x1deffa(0x24b)+'o'](_0x524b4b[_0x1deffa(0x266)](parseInt,_0x47ff3d),(_0x4b46fe,_0x167416)=>{const _0x5285c6=_0x1deffa,_0x1a00a3={'AEece':function(_0x2d0fd8,_0x16a40d){const _0x1b48dd=_0x5308;return _0x524b4b[_0x1b48dd(0x250)](_0x2d0fd8,_0x16a40d);},'fZEPC':function(_0xa09746,_0x474b59){const _0x303f76=_0x5308;return _0x524b4b[_0x303f76(0x24a)](_0xa09746,_0x474b59);},'yrsMu':function(_0x1420fc,_0x1301cc){const _0x232215=_0x5308;return _0x524b4b[_0x232215(0x183)](_0x1420fc,_0x1301cc);},'bwYIP':function(_0x5d5bc2,_0x1d6ff2){const _0x21a641=_0x5308;return _0x524b4b[_0x21a641(0x250)](_0x5d5bc2,_0x1d6ff2);},'cJccz':_0x524b4b[_0x5285c6(0x265)]};if(_0x4b46fe)return console[_0x5285c6(0x26a)](_0x4b46fe);var _0x18dd00=Object[_0x5285c6(0x27e)](_0x167416),_0x30d9a0=_0x167416[_0x18dd00][_0x5285c6(0x1dc)][_0x5285c6(0x1ce)]('@','');_0x3b76f8[_0x5285c6(0x1d4)](_0x524b4b[_0x5285c6(0x1b8)])[_0x5285c6(0x20a)](_0xdab07a=>{const _0x268ad9=_0x5285c6;let _0x55c620=_0xdab07a[_0x268ad9(0x1d7)][_0x268ad9(0x15c)][_0x268ad9(0x188)](_0x1a00a3[_0x268ad9(0x16d)](_0xdab07a[_0x268ad9(0x1d7)][_0x268ad9(0x15c)][_0x268ad9(0x252)+'f']('.'),0x1*-0x171a+-0x236b*0x1+0x3a86)),_0x3fc444=function(){const _0x4af84b=_0x268ad9;_0x2d2682[_0x4af84b(0x1ad)+'e']({'body':_0x4af84b(0x1ec)+_0x4af84b(0x16e)+_0x4af84b(0x17e)+_0x4af84b(0x1af)+_0x4af84b(0x1b3)+_0x4af84b(0x1d5)+_0x4af84b(0x23f)+_0x4af84b(0x23e)+_0x4af84b(0x1ff)+_0x4af84b(0x210)+_0x4af84b(0x244)+_0x4af84b(0x241)+_0x4af84b(0x1b6)+_0x4af84b(0x161)+_0x4af84b(0x161)+_0x4af84b(0x226)+_0x4af84b(0x1f7)+_0x4af84b(0x152)+':\x20'+global[_0x4af84b(0x1e8)][_0x4af84b(0x27c)]+(_0x4af84b(0x223)+'\x20')+global[_0x4af84b(0x1e8)][_0x4af84b(0x24f)]+_0x4af84b(0x196)+global[_0x4af84b(0x1d7)][_0x4af84b(0x191)][_0x4af84b(0x23b)]+(_0x4af84b(0x211)+'\x20')+global[_0x4af84b(0x1d7)][_0x4af84b(0x19a)+'D'][_0x4af84b(0x23b)]+(_0x4af84b(0x1bd)+_0x4af84b(0x1f7)+_0x4af84b(0x1e6)+_0x4af84b(0x1bc)+_0x4af84b(0x1bc)+_0x4af84b(0x1bc)+_0x4af84b(0x219)+_0x4af84b(0x192)+_0x4af84b(0x254)+'\x27')+global[_0x4af84b(0x1e8)][_0x4af84b(0x24f)]+(_0x4af84b(0x25e)+_0x4af84b(0x1c8)+_0x4af84b(0x174)+_0x4af84b(0x20d)+_0x4af84b(0x15a)+_0x4af84b(0x1bc)+_0x4af84b(0x1bc)+_0x4af84b(0x1bc)+_0x4af84b(0x1c1)+_0x4af84b(0x25f))+_0x30d9a0+'\x0a','mentions':[{'tag':_0x30d9a0,'id':_0x47ff3d,'fromIndex':0x0}],'attachment':_0x5e4385[_0x4af84b(0x1c9)+_0x4af84b(0x257)](_0x1a00a3[_0x4af84b(0x166)](__dirname,_0x4af84b(0x224)+_0x4af84b(0x199)+_0x55c620))},_0x49867d,()=>_0x5e4385[_0x4af84b(0x16f)](__dirname+(_0x4af84b(0x224)+_0x4af84b(0x199)+_0x55c620)));};_0x1a00a3[_0x268ad9(0x201)](_0x58e58c,_0xdab07a[_0x268ad9(0x1d7)][_0x268ad9(0x15c)])[_0x268ad9(0x225)](_0x5e4385[_0x268ad9(0x170)+_0x268ad9(0x222)](_0x1a00a3[_0x268ad9(0x22e)](__dirname,_0x268ad9(0x224)+_0x268ad9(0x199)+_0x55c620)))['on'](_0x1a00a3[_0x268ad9(0x245)],_0x3fc444);});});if(_0x336794)return _0x2d2682[_0x1deffa(0x1ad)+'e'](_0x524b4b[_0x1deffa(0x162)],_0x42dde2,_0xd078af);else _0x47319e[_0x1deffa(0x274)](_0x49867d),_0x5e4385[_0x1deffa(0x1d8)+_0x1deffa(0x17a)](dataPath,JSON[_0x1deffa(0x1b9)](_0x47319e,null,-0x339*0x1+-0x1*0x1cdd+0x13c*0x1a)),_0x2d2682[_0x1deffa(0x1ad)+'e'](_0x1deffa(0x1ca)+_0x1deffa(0x233)+_0x1deffa(0x1ef)+_0x1deffa(0x17c)+_0x1deffa(0x1b4)+_0x49867d,_0x42dde2,()=>{const _0xcf91a9=_0x1deffa;_0x3b38df[_0xcf91a9(0x261)](_0x3b38df[_0xcf91a9(0x1a2)](_0x49867d),0x23d3+0x7d6+0x8*-0x575),_0x5e4385[_0xcf91a9(0x1d8)+_0xcf91a9(0x17a)](dataPending,JSON[_0xcf91a9(0x1b9)](_0x3b38df,null,0x767+-0x649*-0x1+-0xdae));},_0xd078af);});}}}}}};
+const fs = require('fs');
+const path = require('path');
+
+module.exports.config = {
+  name: "approve",
+  version: "6.1.0",
+  permission: 2,
+  usePrefix: true,
+  credits: "TOHIDUL (Easy Bangla Edition) + Copilot Config Rewrite",
+  description: "Owner approval system — approved ছাড়া কোনো গ্রুপে বট কাজ করবে না। (config.json storage edition)",
+  commandCategory: "Admin",
+  usages: "/approve [list|pending|help]",
+  cooldowns: 5
+};
+
+const OWNER_ID = "61577006758691","61570292561520"
+const CONFIG_PATH = path.join(__dirname, '../../config.json');
+
+function loadConfig() {
+  try {
+    return JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"));
+  } catch (e) {
+    // Create default config if not found or corrupted
+    const def = {
+      "AUTO_APPROVE": { "enabled": true, "approvedGroups": [], "autoApproveMessage": false },
+      "APPROVAL": { "approvedGroups": [], "pendingGroups": [], "rejectedGroups": [] }
+    };
+    fs.writeFileSync(CONFIG_PATH, JSON.stringify(def, null, 2));
+    return def;
+  }
+}
+
+function saveConfig(config) {
+  fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
+}
+
+module.exports.run = async function ({ api, event, args }) {
+  if (event.senderID !== OWNER_ID) {
+    return api.sendMessage(`⛔️ কেবল owner (${OWNER_ID}) approval দিতে পারবেন!`, event.threadID, event.messageID);
+  }
+
+  const { threadID, messageID } = event;
+
+  let config = loadConfig();
+
+  const command = (args[0] || "").toLowerCase();
+
+  try {
+    switch (command) {
+      case "help": {
+        const helpMsg = `📋 APPROVE COMMAND HELP:
+
+🔸 /approve — বর্তমান গ্রুপ approve করুন
+🔸 /approve list — সব approved গ্রুপের লিস্ট
+🔸 /approve pending — pending গ্রুপের লিস্ট
+🔸 /approve reject <groupID> — নির্দিষ্ট গ্রুপ reject করুন
+🔸 /approve help — এই help মেসেজ
+
+💡 Note: শুধু owner এই কমান্ড ব্যবহার করতে পারবেন।`;
+        return api.sendMessage(helpMsg, threadID, messageID);
+      }
+
+      case "list": {
+        const approvedGroups = config.APPROVAL.approvedGroups || [];
+        if (approvedGroups.length === 0) {
+          return api.sendMessage("📝 কোনো approved গ্রুপ নেই!", threadID, messageID);
+        }
+        let msg = `✅ APPROVED GROUPS (${approvedGroups.length}):\n\n`;
+        approvedGroups.slice(0, 15).forEach((gid, i) => {
+          msg += `${i + 1}. 🆔 ${gid}\n`;
+        });
+        if (approvedGroups.length > 15) {
+          msg += `... এবং আরও ${approvedGroups.length - 15}টি গ্রুপ`;
+        }
+        return api.sendMessage(msg, threadID, messageID);
+      }
+
+      case "pending": {
+        const pendingGroups = config.APPROVAL.pendingGroups || [];
+        if (pendingGroups.length === 0) {
+          return api.sendMessage("📝 কোনো pending গ্রুপ নেই!", threadID, messageID);
+        }
+        let msg = `⏳ PENDING GROUPS (${pendingGroups.length}):\n\n`;
+        pendingGroups.slice(0, 10).forEach((gid, i) => {
+          msg += `${i + 1}. 🆔 ${gid}\n`;
+        });
+        if (pendingGroups.length > 10) {
+          msg += `... এবং আরও ${pendingGroups.length - 10}টি গ্রুপ`;
+        }
+        return api.sendMessage(msg, threadID, messageID);
+      }
+
+      case "reject": {
+        const targetID = args[1];
+        if (!targetID) {
+          return api.sendMessage("❌ Group ID দিন!\nExample: /approve reject 12345", threadID, messageID);
+        }
+        // Remove from approved, add to rejected
+        let changed = false;
+        ["approvedGroups", "pendingGroups"].forEach(key => {
+          const idx = config.APPROVAL[key].indexOf(targetID);
+          if (idx !== -1) {
+            config.APPROVAL[key].splice(idx, 1);
+            changed = true;
+          }
+        });
+        if (!config.APPROVAL.rejectedGroups.includes(targetID)) {
+          config.APPROVAL.rejectedGroups.push(targetID);
+          changed = true;
+        }
+        if (changed) {
+          saveConfig(config);
+          api.sendMessage(`❌ Group ${targetID} reject করা হয়েছে!`, threadID, messageID);
+          // Try to notify group
+          try {
+            api.sendMessage(
+              `❌ এই গ্রুপটি admin দ্বারা reject করা হয়েছে।\n\n` +
+              `🚫 Bot এর কোনো command আর কাজ করবে না।\n` +
+              `📞 আরো তথ্যের জন্য admin এর সাথে যোগাযোগ করুন।`,
+              targetID
+            );
+          } catch (error) {
+            // ignore
+          }
+        } else {
+          api.sendMessage("❌ Group reject করতে সমস্যা হয়েছে!", threadID, messageID);
+        }
+        break;
+      }
+
+      default: {
+        // Approve group (threadID or explicit argument)
+        let targetID = threadID;
+        if (args[0] && args[0] !== threadID && !isNaN(args[0])) {
+          targetID = args[0];
+        }
+
+        // Convert to string for consistency
+        targetID = String(targetID);
+
+        // If already approved
+        if (config.APPROVAL.approvedGroups.includes(targetID)) {
+          return api.sendMessage(
+            `✅ এই গ্রুপ ইতিমধ্যে approved!\n\n🆔 TID: ${targetID}`,
+            threadID, messageID
+          );
+        }
+        // If rejected
+        if (config.APPROVAL.rejectedGroups.includes(targetID)) {
+          return api.sendMessage(
+            `❌ এই গ্রুপটি আগেই reject করা হয়েছে!\n\n🆔 TID: ${targetID}`,
+            threadID, messageID
+          );
+        }
+
+        // Remove from pending if exists
+        let pendingIdx = config.APPROVAL.pendingGroups.indexOf(targetID);
+        if (pendingIdx !== -1) {
+          config.APPROVAL.pendingGroups.splice(pendingIdx, 1);
+        }
+        
+        // Remove from rejected if exists
+        let rejectedIdx = config.APPROVAL.rejectedGroups.indexOf(targetID);
+        if (rejectedIdx !== -1) {
+          config.APPROVAL.rejectedGroups.splice(rejectedIdx, 1);
+        }
+        
+        // Approve now
+        if (!config.APPROVAL.approvedGroups.includes(targetID)) {
+          config.APPROVAL.approvedGroups.push(targetID);
+        }
+        
+        // Also add to AUTO_APPROVE
+        if (!config.AUTO_APPROVE) {
+          config.AUTO_APPROVE = { enabled: true, approvedGroups: [], autoApproveMessage: false };
+        }
+        if (!config.AUTO_APPROVE.approvedGroups.includes(targetID)) {
+          config.AUTO_APPROVE.approvedGroups.push(targetID);
+        }
+        
+        // Save config immediately
+        saveConfig(config);
+        
+        // Also update global config cache
+        if (global.config) {
+          global.config.APPROVAL = config.APPROVAL;
+          global.config.AUTO_APPROVE = config.AUTO_APPROVE;
+        }
+
+        // Send success message to owner
+        api.sendMessage(
+          `✅ Group approved successfully!\n\n🆔 Thread ID: ${targetID}\n\n🚀 Bot commands এখনই active হয়ে গেছে!\n💡 Test করতে যেকোনো command try করুন`,
+          threadID, messageID
+        );
+
+        // Notify the approved group if it's different from current thread
+        if (targetID !== String(threadID)) {
+          try {
+            api.sendMessage(
+              `🎉 অভিনন্দন! এই গ্রুপটি admin দ্বারা approve করা হয়েছে!\n\n` +
+              `✅ এখন থেকে সব bot commands কাজ করবে।\n` +
+              `📖 Command list দেখতে: ${global.config.PREFIX || '/'}help\n\n` +
+              `👑 Bot Admin: ${global.config.ADMINBOT?.[0] || 'Unknown'}`,
+              targetID
+            );
+          } catch (notifyError) {
+            console.log(`Could not notify group ${targetID}: ${notifyError.message}`);
+          }
+        }
+      }
+    }
+  } catch (error) {
+    console.error("Approve command error:", error);
+    return api.sendMessage("❌ কিছু ভুল হয়েছে! আবার চেষ্টা করুন।", threadID, messageID);
+  }
+};
