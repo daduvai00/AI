@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "ald",
   version: "1.0.0",
-  hasPermission: 0,
+  hasPermission: 2,
   credits: "Raja vip 5x",
   description: "Send a trending TikTok video",
   commandCategory: "media",
