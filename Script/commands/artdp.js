@@ -34,7 +34,7 @@ module.exports.run = async ({
 
   downloadImage(imageUrl, filePath, () => {
     api.sendMessage({
-      body: `Made By TOHIDUL :: ${imageList.length}`,
+      body: `Made By AI :: ${imageList.length}`,
       attachment: fs.createReadStream(filePath)
     }, event.threadID, () => fs.unlinkSync(filePath));
   });
