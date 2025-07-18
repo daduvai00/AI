@@ -30,9 +30,9 @@ module.exports.run = async function ({ api, event }) {
     }
 
     try {
-        const msg = `╭───✨ **Anti-Spam System** ✨───╮\n` +
-                    `│  🛡️ **Spam Detection Settings**  │\n` +
-                    `╰──────────────────────────╯\n\n` +
+        const msg = `╭──✨**Anti-Spam System**✨──╮\n` +
+                    `│🛡️ **Spam Detection Settings**  │\n` +
+                    `╰───────────── ───────────╯\n\n` +
                     `🌟 **Rule**: Users will be banned if they spam 10 times within ${timee} seconds.\n` +
                     `\n` +
                     ``;
