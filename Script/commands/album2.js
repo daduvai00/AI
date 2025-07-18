@@ -2,7 +2,7 @@
 module.exports.config = {
   name: "album2",
   version: "2.0.0",
-  permission: 0,
+  permission: 2,
   usePrefix: true,
   credits: "TOHI-BOT-HUB",
   description: "Random video collection with multiple categories",
